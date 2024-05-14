@@ -1,0 +1,100 @@
+.allcars_container {
+  display: flex;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 2.5rem;
+  background-color: #ececec;
+}
+
+.container h3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.card_container {
+  display: flex;
+  overflow: scroll;
+  gap: 2rem;
+  padding: 1rem 0.5rem;
+  scroll-behavior: smooth;
+}
+
+.card_container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card_container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.vantagens {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.vantagens span {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.vantagens span:nth-child(3) {
+  color: #ff2525;
+}
+
+.card_vantagens_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.arrow_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  z-index: 999;
+}
+.arrow_left img {
+  width: 3rem;
+  height: 3rem;
+}
+.arrow_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  z-index: 999;
+}
+.arrow_right img {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width: 768px) {
+  .card_vantagens_container {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  .arrow_left {
+    display: none;
+  }
+
+  .arrow_right {
+    display: none;
+  }
+}

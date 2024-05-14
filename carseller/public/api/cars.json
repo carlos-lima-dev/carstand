@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2019,
+    "mileage": 45000,
+    "price": 15000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Silver",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/dec74925-ee03-4685-9897-95635286439c/81b5083a-00de-40d3-b242-dc4dd1afc6cb.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/dec74925-ee03-4685-9897-95635286439c/4eced0f3-0cce-4d09-801e-a752610cfd66.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/dec74925-ee03-4685-9897-95635286439c/b82a7d9a-ce81-4322-90fe-9231757a54db.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/dec74925-ee03-4685-9897-95635286439c/13c21fe5-2471-4cca-9e83-8023f987b550.png"
+    ]
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2018,
+    "mileage": 40000,
+    "price": 17000,
+    "fuelType": "Gasolina",
+    "transmission": "Manual",
+    "color": "Black",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/ca8eb969-b7e6-4b99-8a2f-94c76583f31c/4bee9920-edbb-4f1e-9641-4b4f7d7a68bf.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/ca8eb969-b7e6-4b99-8a2f-94c76583f31c/2cc94755-4bcc-41a4-8c5b-51a0e50af95e.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/ca8eb969-b7e6-4b99-8a2f-94c76583f31c/c2ad86f1-6b21-4f2c-97b3-da1c1caaf8d6.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/ca8eb969-b7e6-4b99-8a2f-94c76583f31c/2f0580d3-8c5a-44ce-993d-ddeff6345fad.png"
+    ]
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Fiesta",
+    "year": 2017,
+    "mileage": 35000,
+    "price": 12000,
+    "fuelType": "Diesel",
+    "transmission": "Manual",
+    "color": "Blue",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/a74c03a3-84d7-46d5-8e96-6750228fbeb5/e2ba6df7-512c-4c70-b7c1-63d08420462d.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/a74c03a3-84d7-46d5-8e96-6750228fbeb5/9b56d0ea-27d4-4867-a022-68aabee2eadf.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/a74c03a3-84d7-46d5-8e96-6750228fbeb5/1cf262de-7e7d-4d50-a0f6-d3e833880823.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/a74c03a3-84d7-46d5-8e96-6750228fbeb5/7beb0352-7a8b-4e4b-8d91-f93e101b3526.png"
+    ]
+  },
+  {
+    "id": 4,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2018,
+    "mileage": 30000,
+    "price": 18000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "White",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/202ad841-7456-4564-9874-9988a6e3da96/43801ed6-940a-4810-aef1-fc7a93783b72.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/202ad841-7456-4564-9874-9988a6e3da96/e5fa2bdd-609a-4676-860c-ff89b5aae97a.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/202ad841-7456-4564-9874-9988a6e3da96/7d4d1e4e-67a0-4a61-b522-4d2d02ffcde5.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/202ad841-7456-4564-9874-9988a6e3da96/99efda57-5cc5-427c-90f1-758376627481.png"
+    ]
+  },
+  {
+    "id": 6,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2020,
+    "mileage": 10000,
+    "price": 35000,
+    "fuelType": "Diesel",
+    "transmission": "Automatic",
+    "color": "Grey",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c4359896-c20e-46da-87a2-a7b2734561b3/c0535e58-31b9-488d-b5b7-55818402e3e6.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c4359896-c20e-46da-87a2-a7b2734561b3/4a823094-e41e-4824-93fa-e50655d75bd5.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c4359896-c20e-46da-87a2-a7b2734561b3/a9e1e6bc-afc9-4776-ba19-5fb1dc4d9b44.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c4359896-c20e-46da-87a2-a7b2734561b3/41252cb6-db5d-462a-895a-573c3c3f679d.png"
+    ]
+  },
+  {
+    "id": 7,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "mileage": 25000,
+    "price": 40000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Black",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/3aa81515-d29b-47e7-bedc-64cab45182b5/1c5a9ff8-fa86-4106-9006-9e1b6539eb1b.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/3aa81515-d29b-47e7-bedc-64cab45182b5/2fd5b264-cd0a-41c0-bf81-59ec92ba3ddd.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/3aa81515-d29b-47e7-bedc-64cab45182b5/08f44136-5b7a-4c38-bcca-d4b046f74804.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/3aa81515-d29b-47e7-bedc-64cab45182b5/db566079-7fed-411a-8933-d0bc04ae1e2e.png"
+    ]
+  },
+  {
+    "id": 8,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "year": 2018,
+    "mileage": 35000,
+    "price": 20000,
+    "fuelType": "Gasolina",
+    "transmission": "Manual",
+    "color": "Silver",
+    "url": [
+      "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2018-Nissan-Qashqai-N-Tec-SUV-white-Dan-Pugh-1200x800p-%2818%29.jpg",
+      "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2018-Nissan-Qashqai-N-Tec-SUV-white-Dan-Pugh-1200x800p-%286%29.jpg",
+      "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2018-Nissan-Qashqai-N-Tec-SUV-white-Dan-Pugh-1200x800p-%2818%29.jpg",
+      "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2018-Nissan-Qashqai-N-Tec-SUV-white-Dan-Pugh-1200x800p-%284%29.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2020,
+    "mileage": 15000,
+    "price": 25000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Blue",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/7fa943b6-904c-4fec-9eb7-4adc0ce2df8f/846b1643-20c9-44d7-b059-8ac8f0268880.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/7fa943b6-904c-4fec-9eb7-4adc0ce2df8f/76c0f762-f377-49c7-ba0f-175fb569a92c.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/7fa943b6-904c-4fec-9eb7-4adc0ce2df8f/bb79104c-5b2f-49e1-99da-46f92b9aa68d.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/7fa943b6-904c-4fec-9eb7-4adc0ce2df8f/68dbe02d-2075-4440-ba7a-809d89edcfca.png"
+    ]
+  },
+  {
+    "id": 10,
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2019,
+    "mileage": 20000,
+    "price": 23000,
+    "fuelType": "Diesel",
+    "transmission": "Automatic",
+    "color": "White",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/70f2a84f-454f-4c00-89b4-fafdeca0dd65/89e86e0d-7909-431f-907c-4e905b2671ae.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/70f2a84f-454f-4c00-89b4-fafdeca0dd65/fa97de70-d929-4081-a867-7bf97154cf1d.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/70f2a84f-454f-4c00-89b4-fafdeca0dd65/5d9b4018-6d94-4748-9973-469bd3ffcccf.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/70f2a84f-454f-4c00-89b4-fafdeca0dd65/5d11a53b-8856-4e18-8796-5ea4a59ba6b5.png"
+    ]
+  },
+  {
+    "id": 11,
+    "make": "Peugeot",
+    "model": "3008",
+    "year": 2017,
+    "mileage": 40000,
+    "price": 18000,
+    "fuelType": "Diesel",
+    "transmission": "Manual",
+    "color": "Grey",
+    "url": [
+      "https://car-images.bauersecure.com/wp-images/12073/1752x1168/zpeugeot3008-001.jpg?mode=max&quality=90&scale=down",
+      "https://car-images.bauersecure.com/wp-images/12073/1752x1168/zpeugeot3008-002.jpg?mode=max&quality=90&scale=down",
+      "https://car-images.bauersecure.com/wp-images/12073/1752x1168/zpeugeot3008-003.jpg?mode=max&quality=90&scale=down",
+      "https://car-images.bauersecure.com/wp-images/12073/1752x1168/zpeugeot3008-004.jpg?mode=max&quality=90&scale=down"
+    ]
+  },
+  {
+    "id": 12,
+    "make": "Volvo",
+    "model": "XC60",
+    "year": 2018,
+    "mileage": 30000,
+    "price": 35000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Black",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/9e9b2c9c-0a59-4332-ab21-228fb43320d4/d459a098-53d8-4976-b762-d596de110093.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/9e9b2c9c-0a59-4332-ab21-228fb43320d4/f4d6d104-460d-49ca-b3a2-1e238af46c4b.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/9e9b2c9c-0a59-4332-ab21-228fb43320d4/f900284c-c783-43de-9036-77ed0d5cd057.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/9e9b2c9c-0a59-4332-ab21-228fb43320d4/6ddc8b39-c520-41b7-b484-f0f93f841c00.png"
+    ]
+  },
+  {
+    "id": 13,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2020,
+    "mileage": 10000,
+    "price": 45000,
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "color": "Blue",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/052b03d6-1081-46ce-8cd1-29f2908023ce/526d85f6-b2f9-49de-8473-44956a1d4033.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/052b03d6-1081-46ce-8cd1-29f2908023ce/80bc18ed-d533-4e81-8448-177bf9801a96.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/052b03d6-1081-46ce-8cd1-29f2908023ce/79557658-2792-492d-85fc-7dc52484c973.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/052b03d6-1081-46ce-8cd1-29f2908023ce/7f41864b-3a13-4869-8368-70f489697c3a.png"
+    ]
+  },
+  {
+    "id": 14,
+    "make": "Fiat",
+    "model": "500",
+    "year": 2019,
+    "mileage": 15000,
+    "price": 12000,
+    "fuelType": "Gasolina",
+    "transmission": "Manual",
+    "color": "Red",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/bcc4f6a4-f263-4145-a4d7-c6c3ed25f8ef/334713a8-5090-4877-b2cc-b0c43fb672a7.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/bcc4f6a4-f263-4145-a4d7-c6c3ed25f8ef/311b26b9-977e-41a2-8afd-97f5175b2c21.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/bcc4f6a4-f263-4145-a4d7-c6c3ed25f8ef/58a9f10d-1309-42e2-85c7-44a525b3d54d.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/bcc4f6a4-f263-4145-a4d7-c6c3ed25f8ef/4b4998de-deb3-451b-987d-af552442da8a.png"
+    ]
+  },
+  {
+    "id": 15,
+    "make": "Skoda",
+    "model": "Octavia",
+    "year": 2018,
+    "mileage": 25000,
+    "price": 16000,
+    "fuelType": "Diesel",
+    "transmission": "Manual",
+    "color": "Silver",
+    "url": [
+      "https://media.drive.com.au/obj/tx_rs:fit:1920:1080,q:50,w:1920/caradvice/private/7cb700c0565e261bb09f3284d2061a81",
+      "https://media.drive.com.au/obj/tx_rs:fit:1920:1080,q:50,w:1920/caradvice/private/993169630b3d2748854a4045e28f1a72",
+      "https://media.drive.com.au/obj/tx_rs:fit:1920:1080,q:50,w:1920/caradvice/private/36d744dd2597a5218205b118b55f5abd",
+      "https://media.drive.com.au/obj/tx_rs:fit:1920:1080,q:50,w:1920/caradvice/private/993169630b3d2748854a4045e28f1a72"
+    ]
+  },
+  {
+    "id": 16,
+    "make": "Jaguar",
+    "model": "F-PACE",
+    "year": 2019,
+    "mileage": 20000,
+    "price": 50000,
+    "fuelType": "Diesel",
+    "transmission": "Automatic",
+    "color": "White",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/25620908-d8c7-4512-84bb-c221ee2361c1/2b604860-36cf-4300-9d5c-d586a3c08784.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/25620908-d8c7-4512-84bb-c221ee2361c1/b091b0e5-08e4-4389-8c42-07e32a534d84.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/25620908-d8c7-4512-84bb-c221ee2361c1/29b82fbb-67aa-482e-8f89-5b63efc304c7.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/25620908-d8c7-4512-84bb-c221ee2361c1/1608488e-e56b-455a-a342-69697723054e.png"
+    ]
+  },
+  {
+    "id": 17,
+    "make": "Land Rover",
+    "model": "Range Rover Evoque",
+    "year": 2018,
+    "mileage": 30000,
+    "price": 45000,
+    "fuelType": "Diesel",
+    "transmission": "Automatic",
+    "color": "Grey",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c268d6c2-899f-4221-8b4b-5cfc166fd72d/6d89caf0-94f0-4fc5-a75b-081a98c58ad3.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c268d6c2-899f-4221-8b4b-5cfc166fd72d/469bd691-aa26-466a-b4e1-128bc5ec3bd5.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c268d6c2-899f-4221-8b4b-5cfc166fd72d/728f50ea-7aaf-430c-adf9-e059f325e4cc.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/c268d6c2-899f-4221-8b4b-5cfc166fd72d/2322305c-720f-40a6-8514-092238465b8d.png"
+    ]
+  },
+  {
+    "id": 18,
+    "make": "Renault",
+    "model": "Kadjar",
+    "year": 2017,
+    "mileage": 40000,
+    "price": 15000,
+    "fuelType": "Diesel",
+    "transmission": "Manual",
+    "color": "Black",
+    "url": [
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/1-renault-kadjar-2018-fd-front.jpg?itok=WnRvd8zw",
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/2-renault-kadjar-2018-fd-rear.jpg?itok=PNLsGoPy",
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/4-renault-kadjar-2018-fd-grille.jpg?itok=XqeOAH49",
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/6-renault-kadjar-2018-fd-badge.jpg?itok=TPB4q56K"
+    ]
+  },
+  {
+    "id": 19,
+    "make": "Mini",
+    "model": "Countryman",
+    "year": 2020,
+    "mileage": 10000,
+    "price": 28000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Green",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/94db0293-5d16-42be-a9f5-e5992ac0ba3b/9ba29036-e94d-4656-b741-b827b98d3bfc.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/94db0293-5d16-42be-a9f5-e5992ac0ba3b/2194c02f-247c-48e6-951f-77ab58cb64bb.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/94db0293-5d16-42be-a9f5-e5992ac0ba3b/f91b96ae-c007-46c6-8191-62e863fd26b1.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/94db0293-5d16-42be-a9f5-e5992ac0ba3b/60c62a48-c3fb-4f5a-8292-9b7a59015bfa.png"
+    ]
+  },
+  {
+    "id": 20,
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "mileage": 20000,
+    "price": 22000,
+    "fuelType": "Gasolina",
+    "transmission": "Automatic",
+    "color": "Red",
+    "url": [
+      "https://platform.cstatic-images.com/in/v2/stock_photos/254540a9-e3cf-41f2-8451-6c6d1fb8fa4d/5e962123-c1a8-4a7a-8b39-3db575a51f2c.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/254540a9-e3cf-41f2-8451-6c6d1fb8fa4d/3a221d11-edf9-46da-bb43-2d0053a29f05.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/254540a9-e3cf-41f2-8451-6c6d1fb8fa4d/4a213ad0-49d7-49db-9fb0-e016945a7284.png",
+      "https://platform.cstatic-images.com/in/v2/stock_photos/254540a9-e3cf-41f2-8451-6c6d1fb8fa4d/f34ab52e-faa1-49eb-bfb5-2b5afe421ce9.png"
+    ]
+  }
+]

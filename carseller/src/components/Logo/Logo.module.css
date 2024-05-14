@@ -1,0 +1,18 @@
+.container_logo {
+  display: flex;
+  align-items: center;
+  color: #ff2525;
+  font-size: 2rem;
+}
+.container_logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.container_logo span:nth-child(2) {
+  color: #fff;
+}
+.container_logo span:nth-child(3) {
+  color: #ff2525;
+}

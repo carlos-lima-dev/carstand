@@ -1,0 +1,104 @@
+.container {
+  padding: 3.5rem 2.5rem;
+  background-color: #ececec;
+}
+.car_grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0px 1rem;
+}
+.car_grid_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.car_grid_images_border {
+  border: 5px solid #ececec;
+}
+.car_left {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.car_left h2 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+}
+.car_left img {
+  width: 100%;
+}
+.car_right {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.car_right h2 {
+  padding: 1.5rem;
+  border-bottom: 1px solid #c4c4c4;
+  color: rgb(123 123 123);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.car_right_details {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.car_right_details p:nth-child(odd) {
+  color: rgb(123 123 123);
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-bottom: 0.5rem;
+}
+.faq_grid {
+  display: grid;
+  grid-gap: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 1rem;
+}
+
+.faq_grid h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+details {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+summary::marker {
+  content: "▸";
+  color: #666;
+}
+.faq_p_size {
+  font-size: 14px;
+}
+@media (max-width: 950px) {
+  .car_grid {
+    grid-template-columns: 1fr;
+    gap: 1rem 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0.5rem;
+    background-color: #ececec;
+  }
+}

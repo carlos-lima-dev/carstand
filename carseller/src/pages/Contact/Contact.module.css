@@ -1,0 +1,55 @@
+.container {
+  padding: 3.5rem 2.5rem;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: #fff;
+  padding: 7rem 1.25rem;
+}
+.container_grid_text p {
+  line-height: 1.625;
+}
+.container_grid_text p:nth-child(1) {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.whatsapp_button {
+  display: flex;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.whatsapp_button:hover {
+  background-color: darkgreen;
+}
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  .container_grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.25rem;
+  }
+  .whatsapp {
+    padding-top: 1rem;
+  }
+}

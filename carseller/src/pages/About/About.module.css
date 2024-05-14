@@ -1,0 +1,97 @@
+.container {
+  padding: 3.5rem 2.5rem;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.container_title h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1.5rem;
+  background-color: #fff;
+}
+.container_grid_left {
+  padding: 1.5rem;
+}
+
+.container_grid_left p:nth-child(1) {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+.container_grid_left p:nth-child(2) {
+  line-height: 1.625;
+}
+.container_grid_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container_grid_mission {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+}
+
+.container_grid_team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.container_grid_team_img img {
+  width: 100%;
+}
+.container_grid_mission {
+  padding: 1.5rem;
+}
+.container_grid_mission p:nth-child(1) {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+.container_grid_mission p:nth-child(2) {
+  line-height: 1.625;
+}
+
+.container_team {
+  padding: 1.5rem;
+  background-color: #fff;
+}
+.container_team h2:nth-child(1) {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+.container_grid_team_img {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  color: grey;
+}
+@media (max-width: 768px) {
+  .container_grid {
+    grid-template-columns: 1fr;
+  }
+  .container_grid_team {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .container {
+    padding: 1rem 0.5rem;
+    gap: 1.5rem;
+  }
+}

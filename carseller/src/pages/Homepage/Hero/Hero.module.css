@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  color: white;
+}
+
+.container_image img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container_text h2 {
+  text-align: center;
+  font-size: 26px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .container_text h2 {
+    display: none;
+  }
+
+  .container_text p {
+    display: none;
+  }
+}

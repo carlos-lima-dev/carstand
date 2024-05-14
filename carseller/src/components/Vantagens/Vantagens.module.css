@@ -1,0 +1,16 @@
+.card_vantagens_container_style {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card_vantagens_container_style p:nth-child(1) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+.card_vantagens_container_style p:nth-child(2) {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
