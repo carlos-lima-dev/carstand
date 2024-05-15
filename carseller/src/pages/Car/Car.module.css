@@ -90,6 +90,7 @@ summary::marker {
 }
 .faq_p_size {
   font-size: 14px;
+  color: #7b7b7b;
 }
 @media (max-width: 950px) {
   .car_grid {
