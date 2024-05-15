@@ -155,7 +155,7 @@ const Cars = () => {
           {filteredCars.length > displayedCars && (
             <div className={styles.show_more}>
               <button onClick={showMore ? handleShowLess : handleShowMore}>
-                {showMore ? "Show Less" : "Show More"}
+                {showMore ? "Ver Menos" : "Ver Mais"}
               </button>
             </div>
           )}
