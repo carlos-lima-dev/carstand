@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  max-width:1300px;
+  margin:0 auto;
 }
 .container_title h2 {
   font-size: 1.875rem;
