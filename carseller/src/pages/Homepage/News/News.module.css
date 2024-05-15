@@ -63,12 +63,12 @@
   align-items: center;
   position: absolute;
   top: 50%;
-  left: -45px;
+  left: -30px;
   z-index: 999;
 }
 .arrow_left img {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 .arrow_right {
   display: flex;
@@ -76,12 +76,12 @@
   align-items: center;
   position: absolute;
   top: 50%;
-  right: -45px;
+  right: -30px;
   z-index: 999;
 }
 .arrow_right img {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media (max-width: 768px) {
