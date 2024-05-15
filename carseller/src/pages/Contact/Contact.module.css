@@ -45,7 +45,7 @@
 }
 @media (max-width: 768px) {
   .container {
-    padding: 1rem 0.5rem;
+    padding: 1rem 1rem;
   }
   .container_grid {
     grid-template-columns: 1fr;
