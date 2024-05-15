@@ -6,7 +6,7 @@ import {CarsContext} from "../../context/carscontext";
 
 const Car = () => {
   const {id} = useParams();
-  const {carData, scrollToTop} = useContext(CarsContext);
+  const {carData} = useContext(CarsContext);
   const [selectedImage, setSelectedImage] = useState("");
   const [mainImage, setMainImage] = useState("");
 
