@@ -26,6 +26,7 @@ const Header = () => {
   }, []);
 
   return (
+    <div className={styles.container_back}>
     <div className={styles.container}>
       <Logo onClose={toggleSidebar} />
       <div className={styles.nav_display}>
@@ -54,6 +55,7 @@ const Header = () => {
       {/* Renderizar o Sidebar condicionalmente */}
       {isSidebarOpen && <Sidebar onClose={toggleSidebar} />}
     </div>
+       </div>
   );
 };
 
