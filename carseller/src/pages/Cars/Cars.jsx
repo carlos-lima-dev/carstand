@@ -58,6 +58,9 @@ const Cars = () => {
     setShowMore(false);
     scrollToTop(); // Scroll to top when "Show Less" is clicked
   };
+   const handleCardClick = () => {
+    scrollToTop();
+  };
 
   const filteredCars = carData.filter((car) => {
     if (selectedBrand && selectedFuel) {
@@ -149,7 +152,7 @@ const Cars = () => {
             {filteredCars
               .slice(0, showMore ? filteredCars.length : displayedCars)
               .map((car) => (
-                <Card key={car.id} car={car} />
+                <Card key={car.id} car={car}  onClick={handleCardClick} />
               ))}
           </div>
           {filteredCars.length > displayedCars && (
