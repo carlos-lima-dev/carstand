@@ -146,7 +146,7 @@ const Cars = () => {
         </div>
       ) : (
         <>
-          <div className={styles.container_grid} id="carsContainer">
+          <div className={styles.container_grid} id="carsContainer" onClick={scrollToTop}>
             {filteredCars
               .slice(0, showMore ? filteredCars.length : displayedCars)
               .map((car) => (
