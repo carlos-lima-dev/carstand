@@ -5,8 +5,10 @@
 
 .footer_head {
   display: flex;
-  justify-content: space-around;
-  padding: 4rem 2.5rem;
+  justify-content: space-between;
+  padding: 4rem 0rem;
+  max-width:1300px;
+  margin:0 auto;
 }
 .footer_head a {
   text-decoration: none;
