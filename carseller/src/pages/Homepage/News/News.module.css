@@ -92,6 +92,9 @@
   .container {
     padding: 1rem 1rem;
   }
+  .card_container {
+  padding: 1rem 0rem 
+}
   .arrow_left {
     display: none;
   }
