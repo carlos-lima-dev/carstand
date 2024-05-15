@@ -63,7 +63,7 @@
   align-items: center;
   position: absolute;
   top: 50%;
-  left: -40px;
+  left: -50px;
   z-index: 999;
 }
 .arrow_left img {
