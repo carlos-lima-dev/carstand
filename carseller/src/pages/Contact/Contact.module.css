@@ -1,5 +1,5 @@
 .container {
-  padding: 3.5rem 2.5rem;
+  min-height: 90vh;
   background-color: #ececec;
   display: flex;
   flex-direction: column;
