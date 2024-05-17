@@ -80,7 +80,7 @@ const Cars = () => {
       initial={{opacity: 0, x: "100%"}}
       animate={{opacity: 1, x: 0}}
       exit={{opacity: 0, x: "-100%"}}
-      transition={{duration: 0.5, ease: "easeInOut"}}>
+      transition={{duration: 1, ease: "easeInOut"}}>
       <div className={styles.container}>
         <div className={styles.container_title}>
           <h2>Viaturas em stock</h2>

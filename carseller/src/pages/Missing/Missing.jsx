@@ -6,7 +6,7 @@ const Missing = () => {
       initial={{opacity: 0, x: "100%"}}
       animate={{opacity: 1, x: 0}}
       exit={{opacity: 0, x: "-100%"}}
-      transition={{duration: 0.5, ease: "easeInOut"}} // Tempo da transição em segundos
+      transition={{duration: 1, ease: "easeInOut"}} // Tempo da transição em segundos
     >
       {" "}
       <div>Page not Found 404</div>

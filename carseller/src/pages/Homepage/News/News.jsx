@@ -3,6 +3,8 @@ import {CarsContext} from "../../../context/carscontext";
 import Card from "../../../components/Card/Card";
 import Vantagens from "../../../components/Vantagens/Vantagens";
 import styles from "./News.module.css";
+import {motion, useAnimation} from "framer-motion";
+import {useInView} from "react-intersection-observer";
 
 const News = () => {
   const {carData, scrollToTop} = useContext(CarsContext);
@@ -73,16 +75,34 @@ const News = () => {
     }
   };
 
+  const controls = useAnimation();
+  const [ref, inView] = useInView({triggerOnce: true});
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({
+        opacity: 1,
+        x: 0,
+        transition: {duration: 1, ease: "easeInOut"},
+      });
+    }
+  }, [controls, inView]);
+
   return (
     <>
-      <div className={styles.container}>
+      <motion.div
+        ref={ref}
+        initial={{opacity: 0, x: "100%"}}
+        animate={controls}
+        exit={{opacity: 0, x: "-100%"}}
+        className={styles.container}>
         <div>
           <h3>Novidades</h3>
         </div>
         <div className={styles.allcars_container}>
           {showPrevArrow && (
             <div className={styles.arrow_left} onClick={handlePrevious}>
-              <img src="assets\seta-esquerda.png" alt="Seta para a esquerda" />
+              <img src="assets/seta-esquerda.png" alt="Seta para a esquerda" />
             </div>
           )}
           <div
@@ -101,7 +121,7 @@ const News = () => {
           </div>
           {showNextArrow && (
             <div className={styles.arrow_right} onClick={handleNext}>
-              <img src="assets\seta-direita.png" alt="Seta para a direita" />
+              <img src="assets/seta-direita.png" alt="Seta para a direita" />
             </div>
           )}
         </div>
@@ -130,7 +150,7 @@ const News = () => {
             }
           />
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
