@@ -33,6 +33,12 @@ export const CarsProvider = ({children}) => {
       behavior: "smooth", // Smooth scrolling animation
     });
   };
+  const scrollToTopAuto = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto", // Smooth scrolling animation
+    });
+  };
 
   useEffect(() => {
     console.log(carData);
@@ -44,6 +50,7 @@ export const CarsProvider = ({children}) => {
         carData,
         scrollToTop,
         error,
+        scrollToTopAuto,
       }}>
       {children}
     </CarsContext.Provider>

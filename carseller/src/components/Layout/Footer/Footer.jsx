@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import {CarsContext} from "../../../context/carscontext";
 const Footer = () => {
   const date = new Date().getFullYear();
-  const {scrollToTop} = useContext(CarsContext);
+  const {scrollToTopAuto, scrollToTop} = useContext(CarsContext);
   return (
     <div className={styles.container}>
       <div className={styles.footer_head}>
@@ -19,10 +19,10 @@ const Footer = () => {
           <Link to="/" onClick={scrollToTop}>
             <p>Home</p>
           </Link>
-          <Link to="/cars" onClick={scrollToTop}>
+          <Link to="/cars" onClick={scrollToTopAuto}>
             <p>Viaturas</p>
           </Link>
-          <Link to="/about" onClick={scrollToTop}>
+          <Link to="/about" onClick={scrollToTopAuto}>
             <p>Sobre nós</p>
           </Link>
         </div>
