@@ -37,10 +37,10 @@ const Car = () => {
 
   return (
     <motion.div
-      initial={{opacity: 0, x: "100%"}}
-      animate={{opacity: 1, x: 0}}
-      exit={{opacity: 0, x: "-100%"}}
-      transition={{duration: 1, ease: "easeInOut"}}>
+      initial={{opacity: 0, y: "100%"}}
+      animate={{opacity: 1, y: 0}}
+      exit={{opacity: 0, y: "-100%"}}
+      transition={{duration: 0.8, ease: "easeInOut"}}>
       <div className={styles.container}>
         <div className={styles.car_grid}>
           <div className={styles.car_left}>
