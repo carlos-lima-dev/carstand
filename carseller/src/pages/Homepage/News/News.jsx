@@ -3,6 +3,8 @@ import {CarsContext} from "../../../context/carscontext";
 import Card from "../../../components/Card/Card";
 import Vantagens from "../../../components/Vantagens/Vantagens";
 import styles from "./News.module.css";
+import {motion, useAnimation} from "framer-motion";
+import {useInView} from "react-intersection-observer";
 
 const News = () => {
   const {carData, scrollToTop} = useContext(CarsContext);
@@ -12,7 +14,6 @@ const News = () => {
   const cardContainerRef = useRef(null);
   const [shuffledCarData, setShuffledCarData] = useState([]);
 
-  // Function to shuffle an array
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -22,17 +23,13 @@ const News = () => {
   };
 
   useEffect(() => {
-    // Shuffle the carData array and limit to a maximum of 8 cars
     const shuffledData = shuffleArray([...carData]).slice(0, 8);
     setShuffledCarData(shuffledData);
   }, [carData]);
 
   useEffect(() => {
     const handleScroll = () => {
-      // If scrollLeft is greater than 0, show the previous arrow
       setShowPrevArrow(cardContainerRef.current.scrollLeft > 0);
-
-      // If scrollLeft + clientWidth is less than scrollWidth, show the next arrow
       setShowNextArrow(
         cardContainerRef.current.scrollLeft +
           cardContainerRef.current.clientWidth <
@@ -41,12 +38,10 @@ const News = () => {
     };
 
     if (cardContainerRef.current) {
-      // Add scroll event listener to the card container
       cardContainerRef.current.addEventListener("scroll", handleScroll);
     }
 
     return () => {
-      // Remove scroll event listener when component unmounts
       if (cardContainerRef.current) {
         cardContainerRef.current.removeEventListener("scroll", handleScroll);
       }
@@ -57,7 +52,6 @@ const News = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === shuffledCarData.length - 1 ? 0 : prevIndex + 1
     );
-    // Scroll 330 pixels to the right
     if (cardContainerRef.current) {
       cardContainerRef.current.scrollLeft += 330;
     }
@@ -67,22 +61,39 @@ const News = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? shuffledCarData.length - 1 : prevIndex - 1
     );
-    // Scroll 330 pixels to the left
     if (cardContainerRef.current) {
       cardContainerRef.current.scrollLeft -= 330;
     }
   };
 
+  const controls = useAnimation();
+  const [ref, inView] = useInView({triggerOnce: true});
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({
+        opacity: 1,
+        x: 0,
+        transition: {duration: 1, ease: "easeInOut"},
+      });
+    }
+  }, [controls, inView]);
+
   return (
     <>
-      <div className={styles.container}>
+      <motion.div
+        ref={ref}
+        initial={{opacity: 0, x: "100%"}}
+        animate={controls}
+        exit={{opacity: 0, x: "-100%"}}
+        className={styles.container}>
         <div>
           <h3>Novidades</h3>
         </div>
         <div className={styles.allcars_container}>
           {showPrevArrow && (
             <div className={styles.arrow_left} onClick={handlePrevious}>
-              <img src="assets\seta-esquerda.png" alt="Seta para a esquerda" />
+              <img src="assets/seta-esquerda.png" alt="Seta para a esquerda" />
             </div>
           )}
           <div
@@ -101,7 +112,7 @@ const News = () => {
           </div>
           {showNextArrow && (
             <div className={styles.arrow_right} onClick={handleNext}>
-              <img src="assets\seta-direita.png" alt="Seta para a direita" />
+              <img src="assets/seta-direita.png" alt="Seta para a direita" />
             </div>
           )}
         </div>
@@ -130,7 +141,7 @@ const News = () => {
             }
           />
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
