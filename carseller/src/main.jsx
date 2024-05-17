@@ -10,6 +10,7 @@ import About from "./pages/About/About";
 import {CarsProvider} from "./context/carscontext";
 import Contact from "./pages/Contact/Contact";
 import Car from "./pages/Car/Car";
+import {AnimatePresence} from "framer-motion";
 
 const router = createBrowserRouter([
   {
@@ -59,8 +60,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <CarsProvider>
       {" "}
-      {/* Aqui você usa o CarsProvider */}
-      <RouterProvider router={router} />
+      <AnimatePresence>
+        <RouterProvider router={router} />
+      </AnimatePresence>
     </CarsProvider>
   </React.StrictMode>
 );
