@@ -114,13 +114,13 @@ const News = () => {
           <Vantagens
             title={"20 Anos"}
             text={
-              "Há 20 anos que o stand RuiAuto está presente no mercado automóvel. Experiência, confiança e profissionalismo são os nossos valores."
+              "Há 20 anos que o stand Carseller está presente no mercado automóvel. Experiência, confiança e profissionalismo são os nossos valores."
             }
           />
           <Vantagens
             title={"Financiamento"}
             text={
-              "O stand RuiAuto é Intermediário de crédito a Título Acessório registrado no Banco de Portugal sob o Nº 0000298. Tratamos de todo o processo de financiamento do seu automóvel."
+              "O stand Carseller é Intermediário de crédito a Título Acessório registrado no Banco de Portugal sob o Nº 00002***. Tratamos de todo o processo de financiamento do seu automóvel."
             }
           />
           <Vantagens
