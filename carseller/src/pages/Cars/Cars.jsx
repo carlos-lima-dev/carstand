@@ -5,7 +5,7 @@ import {CarsContext} from "../../context/carscontext";
 import {motion} from "framer-motion";
 
 const Cars = () => {
-  const {carData, scrollToTop} = useContext(CarsContext);
+  const {carData, scrollToTopAuto} = useContext(CarsContext);
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedFuel, setSelectedFuel] = useState("");
   const [showMore, setShowMore] = useState(false);
@@ -154,7 +154,7 @@ const Cars = () => {
             <div
               className={styles.container_grid}
               id="carsContainer"
-              onClick={scrollToTop}>
+              onClick={scrollToTopAuto}>
               {filteredCars
                 .slice(0, showMore ? filteredCars.length : displayedCars)
                 .map((car) => (

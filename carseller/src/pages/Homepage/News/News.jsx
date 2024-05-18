@@ -7,7 +7,7 @@ import {motion, useAnimation} from "framer-motion";
 import {useInView} from "react-intersection-observer";
 
 const News = () => {
-  const {carData, scrollToTop} = useContext(CarsContext);
+  const {carData, scrollToTopAuto} = useContext(CarsContext);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showPrevArrow, setShowPrevArrow] = useState(false);
   const [showNextArrow, setShowNextArrow] = useState(true);
@@ -99,7 +99,7 @@ const News = () => {
           <div
             ref={cardContainerRef}
             className={styles.card_container}
-            onClick={scrollToTop}>
+            onClick={scrollToTopAuto}>
             {shuffledCarData.map((car, index) => (
               <div
                 key={car.id}

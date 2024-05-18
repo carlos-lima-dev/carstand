@@ -1,10 +1,7 @@
 .container_back {
-
   width: 100%;
   background-color: black;
 }
-
-
 
 .container {
   display: flex;
@@ -13,7 +10,7 @@
   padding: 12px 40px;
   background-color: black;
   color: #fff;
-  max-width:1300px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -32,6 +29,7 @@
 
 .nav_display_burger {
   display: none;
+  cursor: pointer;
 }
 
 .sidebar {

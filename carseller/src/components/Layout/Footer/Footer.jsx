@@ -9,13 +9,15 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.footer_head}>
         <div className={styles.footer_text}>
-          <p>FALE CONNOSCO</p>
-          <p>WhatsApp</p>
+          <p className={styles.text_uppercase}>FALE CONNOSCO</p>
+          <Link to="https://wa.me/916910***" onClick={scrollToTop}>
+            <p>WhatsApp</p>
+          </Link>
           <p>geral@carseller.com</p>
           <p>Rua da pedra N 23 Fão 4805-319 Esposende.</p>
         </div>
         <div className={styles.footer_text}>
-          <p>MENU</p>
+          <p className={styles.text_uppercase}>MENU</p>
           <Link to="/" onClick={scrollToTop}>
             <p>Home</p>
           </Link>
@@ -27,13 +29,13 @@ const Footer = () => {
           </Link>
         </div>
         <div className={styles.footer_text}>
-          <p>INFORMAÇÃO LEGAL</p>
+          <p className={styles.text_uppercase}>INFORMAÇÃO LEGAL</p>
           <p>Centro de arbitragem</p>
           <p>Intermediário de crédito</p>
           <p>Livro de reclamações</p>
         </div>
         <div className={styles.footer_text}>
-          <p>SOCIAL</p>
+          <p className={styles.text_uppercase}>SOCIAL</p>
           <div className={styles.icons}>
             <Link to="https://www.instagram.com/" target="_blank">
               <svg

@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-between;
   padding: 4rem 0rem;
-  max-width:1300px;
-  margin:0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .footer_head a {
   text-decoration: none;
@@ -31,11 +31,28 @@
   font-size: 0.8rem;
 }
 
+.footer_text p {
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .icons {
   display: flex;
   gap: 1rem;
 }
+
+.footer_text .text_uppercase {
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+  .icons {
+    justify-content: center;
+  }
   .footer_head {
     flex-direction: column;
     gap: 2rem;
