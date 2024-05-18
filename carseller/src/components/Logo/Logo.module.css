@@ -10,9 +10,9 @@
   text-decoration: none;
   font-size: 2rem;
 }
-.container_logo span:nth-child(2) {
+.container_logo span:nth-child(1) {
   color: #fff;
 }
-.container_logo span:nth-child(3) {
+.container_logo span:nth-child(2) {
   color: #ff2525;
 }
