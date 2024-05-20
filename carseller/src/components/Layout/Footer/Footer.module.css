@@ -19,6 +19,9 @@
   justify-content: center;
   padding-bottom: 2rem;
 }
+.footer_bottom p {
+  font-size: 12px;
+}
 .footer_text {
   display: flex;
   flex-direction: column;
